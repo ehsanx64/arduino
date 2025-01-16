@@ -26,6 +26,9 @@
 #define ESP8266_WIFI_STA_PSKEY "ef0123456789"
 // mDNS
 #define ESP8266_MDNS_NAME "Electrofruit"
+// OTA
+#define ESP8266_OTA_ENABLED
+#define ESP8266_OTA_HOSTNAME MDNS_NAME
 // MQTT
 #define MQTT_ENABLED
 #define MQTT_BROKER_IP "0.0.0.0"
@@ -34,8 +37,6 @@
 #define MQTT_BROKER_PASSWORD "pass"
 #define MQTT_BROKER_TOPIC "testing"
 #define MQTT_CLIENT_NAME "ArduinoPubSubClient"
-
-#define ESP8266_OTA_ENABLED
 
 
 /*** ATMEGA8 Core *****************/
