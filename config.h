@@ -31,6 +31,9 @@
 #define ESP8266_OTA_HOSTNAME MDNS_NAME
 // Web Server
 #define ESP8266_WEB_SERVER_ENABLED
+// Wemos D1 Mini
+#define ESP8266_WEMOSD1MINI_ENABLED
+
 
 /*** MQTT *************************/
 #define MQTT_ENABLED
@@ -50,3 +53,5 @@
 
 /*** Software Serial **************/
 #define SOFTWARE_SERIAL_ENABLED
+
+#define LOGGING
