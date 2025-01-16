@@ -29,7 +29,10 @@
 // OTA
 #define ESP8266_OTA_ENABLED
 #define ESP8266_OTA_HOSTNAME MDNS_NAME
-// MQTT
+// Web Server
+#define ESP8266_WEB_SERVER_ENABLED
+
+/*** MQTT *************************/
 #define MQTT_ENABLED
 #define MQTT_BROKER_IP "0.0.0.0"
 #define MQTT_BROKER_PORT 1883
@@ -38,11 +41,11 @@
 #define MQTT_BROKER_TOPIC "testing"
 #define MQTT_CLIENT_NAME "ArduinoPubSubClient"
 
-
 /*** ATMEGA8 Core *****************/
 //#define ATMEGA8_CORE_ENABLED
 
-/*** Torret ***********************/
+/*** Car **************************/
+// Torret
 //#define TORRET_ENABLED
 
 /*** Software Serial **************/
