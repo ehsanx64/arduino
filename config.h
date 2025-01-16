@@ -33,5 +33,8 @@
 /*** ATMEGA8 Core *****************/
 //#define ATMEGA8_CORE_ENABLED
 
-/*** Torret *****************/
+/*** Torret ***********************/
 //#define TORRET_ENABLED
+
+/*** Software Serial **************/
+#define SOFTWARE_SERIAL_ENABLED
