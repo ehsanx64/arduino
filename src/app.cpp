@@ -5,6 +5,8 @@
 #include "wire/wire.h"
 #include "neopixel/neopixel.h"
 #include "esp8266/core.h"
+#include "atmega8/core.h"
+#include "car/torret.h"
 
 void App_Setup() {
     Tone_Setup();

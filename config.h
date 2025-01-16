@@ -20,3 +20,6 @@
 
 /*** ATMEGA8 Core *****************/
 #define ATMEGA8_CORE_ENABLED
+
+/*** Torret *****************/
+#define TORRET_ENABLED
