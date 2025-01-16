@@ -17,9 +17,21 @@
 
 /*** ESP8266 Core *****************/
 #define ESP8266_CORE_ENABLED
+// WIFI
+#define ESP8266_WIFI_ENABLED
+#define ESP8266_WIFI_AP_ENABLED
+#define ESP8266_WIFI_AP_ESSID "Electrofruit"
+#define ESP8266_WIFI_AP_PSKEY "ef0123456789"
+#define ESP8266_WIFI_STA_ESSID "Electrofruit"
+#define ESP8266_WIFI_STA_PSKEY "ef0123456789"
+// mDNS
+#define ESP8266_MDNS_NAME "Electrofruit"
+
+#define ESP8266_OTA_ENABLED
+#define ESP8266_MQTT_ENABLED
 
 /*** ATMEGA8 Core *****************/
-#define ATMEGA8_CORE_ENABLED
+//#define ATMEGA8_CORE_ENABLED
 
 /*** Torret *****************/
-#define TORRET_ENABLED
+//#define TORRET_ENABLED
