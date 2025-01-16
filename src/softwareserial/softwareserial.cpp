@@ -4,6 +4,9 @@
 
 #ifdef SOFTWARE_SERIAL_ENABLED
 EspSoftwareSerial::UART ssw;
+
+const short unsigned int SSW_TX = 2;
+const short unsigned int SSW_RX = 0;
 #endif
 
 void SoftwareSerial_Setup() {
