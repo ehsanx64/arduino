@@ -17,3 +17,6 @@
 
 /*** ESP8266 Core *****************/
 #define ESP8266_CORE_ENABLED
+
+/*** ATMEGA8 Core *****************/
+#define ATMEGA8_CORE_ENABLED
