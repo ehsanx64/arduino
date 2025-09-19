@@ -1,2 +1,3 @@
 Experimental/
-libraries/
+libraries/*
+!libraries/arduinolib/
